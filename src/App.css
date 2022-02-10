@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@200&family=Nanum+Gothic&display=swap");
+
 .App {
   text-align: center;
 }
@@ -34,5 +36,32 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+.saatvik {
+  font-size: 40px;
+  padding-top: 5px;
+  font-family: "Nanum Gothic", sans-serif;
+  text-shadow: 2px 2px 6px #3d3c3c;
+}
+@media screen and (max-width: 700px) {
+  .saatvik {
+    font-size: 30px;
+    position: relative;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 400px) {
+  .saatvik {
+    font-size: 20px;
+    position: relative;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 300px) {
+  .saatvik {
+    font-size: 20px;
+    position: relative;
+    align-items: center;
   }
 }
